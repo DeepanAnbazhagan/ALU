@@ -20,7 +20,9 @@ STEP:6 Click the simulation to simulate the program and give the inputs and veri
 
 STEP:7 compare the output with truth table.
 # Block Diagram:
+
 ![image](https://github.com/RESMIRNAIR/ALU/assets/154305926/33dff162-59b3-44e2-886a-1ddd6e60979f)
+
 # ALU Arithmetic and Logic Operations
 ----------------------------------------------------------------------
 |ALU_Sel|   ALU Operation
@@ -58,6 +60,7 @@ STEP:7 compare the output with truth table.
 | 1111  |   ALU_Out = 1 if A=B else 0;
 ----------------------------------------------------------------------
 # Program:
+```
 module alu (
 
 input[7:0]A,B,
@@ -145,7 +148,10 @@ endcase
 end
 
 endmodule
+```
 # Output:
+
+![ALU](https://github.com/Douglas0207/ALU/assets/166375742/e34787a5-6d8a-4bed-81fc-cb5a11ad2ee1)
 
 # Result:
 Thus the verilog program for 16bit ALU has been simulated and verified successfully.
